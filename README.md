@@ -65,8 +65,6 @@ and
 * Column witdh not dynamic
 
 ## Future Ideas
-* Rename Plugin (currently reference to "Segments" is too narrow)
-* Filtering for Tags
 * Configurable columns
 * Actions from within Widget
 * Honor "Company" permissions (as soon as that exists in Mautic :)
