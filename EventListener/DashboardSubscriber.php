@@ -139,7 +139,7 @@ class DashboardSubscriber extends OriginalDashboardSubscriber
         $companies = [];
         foreach ($selectedSegments as $segmentId) {
             $companiesSegments = $this->companiesSegmentsRepository->getCompaniesSegmentsBySegmentIds([$segmentId]);
-            $companies[]       = array_unique(array_map(function ($entity): \Mautic\LeadBundle\Entity\Company {
+            $companies[]       = array_unique(array_map(function ($entity): Company {
                 return $entity->getCompany();
             }, $companiesSegments));
         }
