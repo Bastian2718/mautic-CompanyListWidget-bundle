@@ -3,7 +3,7 @@
 return [
     'name'        => 'Company List Widget by Leuchtfeuer',
     'description' => 'Add Widget that lists Companies (filtered by segment and/or tag) in the Dashboard',
-    'version'     => '1.1.1',
+    'version'     => '1.1.2',
     'author'      => 'Leuchtfeuer Digital Marketing GmbH',
 
     'services'    => [
@@ -23,7 +23,7 @@ return [
                     'mautic.basic_integration',
                 ],
             ],
-            'leuchtfeuercompanysegmentmemberswidget.integration.configuration' => [
+            'leuchtfeuercompanylistwidget.integration.configuration' => [
                 'class' => MauticPlugin\LeuchtfeuerCompanyListWidgetBundle\Integration\Support\ConfigSupport::class,
                 'tags'  => [
                     'mautic.config_integration',
