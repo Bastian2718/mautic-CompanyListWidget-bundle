@@ -2,20 +2,21 @@
     "name": "leuchtfeuer/companylistwidget",
     "description": "Add Widget that lists Companies (filtered by segment and/or tag) in the Dashboard",
     "type": "mautic-plugin",
-    "license": "GPL-3.0",
+    "license": "GPL-3.0-or-later",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "authors": [
         {
-            "name": "Leuchtfeuer Digital Marketing GmbH",
-            "email": "mautic-plugins@Leuchtfeuer.com"
+          "name": "Leuchtfeuer Digital Marketing GmbH",
+          "email": "mautic-plugins@Leuchtfeuer.com",
+          "homepage": "https://Leuchtfeuer.com/mautic/",
+          "role": "Developer"
         }
-    ],
-
-
+      ],
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.4"
     },
+    "keywords": ["mautic","plugin","integration"],
 
     "repositories": [
         {
@@ -29,10 +30,11 @@
     ],
 
     "require": {
+        "php": "^8.0",
+        "mautic/core-lib": "^5.0",
         "leuchtfeuer/mautic-companytags-bundle": "^1.1",
         "leuchtfeuer/mautic-companysegments-bundle":"^1.1"
     },
-
 
     "extra": {
         "install-directory-name": "LeuchtfeuerCompanyListWidgetBundle"
