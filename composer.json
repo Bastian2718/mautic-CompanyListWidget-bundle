@@ -18,17 +18,9 @@
     },
     "keywords": ["mautic","plugin","integration"],
 
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Leuchtfeuer/mautic-CompanySegments-bundle"
-        }
-    ],
-
     "require": {
         "php": "^8.0",
         "mautic/core-lib": "^6.0",
-        "leuchtfeuer/mautic-companysegments-bundle":"^1.1"
     },
 
     "extra": {
